@@ -1,0 +1,91 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+body{
+    margin: 10px 15px;
+}h1, h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif ;
+}p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}nav>a{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic; color: rgb(29, 35, 58);
+    text-decoration: none; margin-right: 40px;
+}nav>a::after{
+    content: '⧉';
+}nav>a:hover{
+    color: darkblue; text-decoration: underline;
+}
+main{
+    padding: 0px 15px;
+}
+/*acima configurações padrão dos meus arquivos*/
+/*cores usadas: 1-#182625 2-#28403D 3-#455559 4-#3f3102  5-#3D5A73*/
+
+header>h1{
+    box-shadow: inset 1px 1px 8px 8px #3d5a73;
+}
+
+/*conf tags header, nav, main e body*/
+body{
+    background-color: #3D5A73;
+}
+header{
+    text-align: center;
+    background-color: white;
+    color: #28403D;
+}
+nav{
+    background-color: white;
+}
+main{
+    background-color: white;
+}
+main>p{
+    color: #3f3102;
+}
+main>h1{
+    color: #3f3102;
+}
+nav>a{
+    background-color: #28403D; padding: 2px; border-radius: 20%;
+    color: white; box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.411);
+}
+nav>a:hover{
+    background-color: white; box-shadow: 0px 0px 0px 0px black;
+}
+
+/* paleta do site e footer*/
+footer{
+    width: 100%; background-color: #182625; color: white;
+}
+footer>.palet1{ 
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #182625 ;
+    width: 50px; height: 30px;
+}   
+footer>.palet2{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #28403D;
+    width: 50px; height: 30px;
+}
+footer>.palet3{
+    border: 1px solid black;
+    display: inline-block;
+    background-color:#455559 ;
+    width: 50px; height: 30px;
+}
+footer>.palet4{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #3f3102 ;
+    width: 50px; height: 30px;
+}
+footer>.palet5{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: #3D5A73;
+    width: 50px; height: 30px;
+}

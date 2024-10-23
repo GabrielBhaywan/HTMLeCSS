@@ -1,0 +1,10 @@
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (max-width: 1250px) {
+    .off{
+        display:none;
+    }
+    .on{
+        display: block;
+    }
+}

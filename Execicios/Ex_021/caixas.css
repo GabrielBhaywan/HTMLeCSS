@@ -1,0 +1,134 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+body{
+    margin: 10px 15px;
+}h1, h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif ;
+}p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}nav>a{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic; color: rgb(29, 35, 58);
+    text-decoration: none; margin-right: 40px;
+}nav>a::after{
+    content: '⧉';
+}nav>a:hover{
+    color: darkblue; text-decoration: underline;
+}
+/*acima configurações padrão dos meus arquivos*/
+.dld{
+    text-align: center;
+}
+.download{
+    background-color: white;
+    width: 200px; height: 200px; border-radius: 50%;
+    margin: auto;
+    animation: dow 1s infinite;
+}
+@keyframes dow{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.point{
+    background-color: black; height: 10px; width: 10px; margin: auto;
+    border-radius: 50%;
+}
+.point1{
+    margin-top: 10px;
+}
+.point2{
+    margin-top: 2px; margin-left: 130px;
+}
+.point3{
+    margin-top: 10px; margin-left: 150px; 
+}
+/*outros*/
+.animacao{
+    background-color: white;
+    width: 300px; height: 300px; border-radius: 50%;
+    border-top: 15px solid darkblue; border-bottom: 15px solid darkred;
+    border-left: 5px solid lightblue; border-right: 5px solid rgb(255, 19, 19);
+    animation-duration:5s;
+    animation: res 5s linear infinite;
+    margin: auto; margin-bottom: 60px;
+}
+@keyframes res{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.dentro{
+    background-color: green; margin: auto;
+    width: 50px; height: 50px; border-radius: 50%;
+    animation: jeg 0.5s linear infinite;
+    border-left: 5px solid blue;border-right: 5px solid red; 
+}
+@keyframes jeg{
+    to{
+        transform: rotate(360deg);
+    }
+}
+   .top{
+    width: 100px; height: 100px ; 
+    background-color: aqua; margin: auto;
+    border-radius: 50%; border-bottom: 25px solid black;border-top: 25px solid black;
+    animation: fre 0.005s linear infinite;
+    box-shadow: 10px 10px 20px rgb(0, 255, 213);
+    box-shadow: -10px -10px 20px rgb(0, 255, 213);;
+}
+@keyframes fre{
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.box{
+    background-color: rgba(153, 205, 50, 0);
+    width: 50px; height: 50px; 
+    margin-left:40% ; margin-top: 20% ;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgb(0, 255, 213); ;
+}
+.charigan{
+    background-color: darkred; border-radius: 50%;
+    width: 225px; height: 225px; margin: auto;
+    animation: charigan 0.10s linear infinite;
+}
+@keyframes charigan{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.tomoe1{
+    width: 50px; height: 50px; background-color: black;
+    border-radius: 50%; margin: auto;
+    border-top: 5px solid darkred;
+}
+.tomoe1> .moe1{
+    width: 20px; height: 20px; background-color: black;
+    border-radius: 50%; border-top-left-radius:20% ;
+    margin-top: -0px; margin-right: 30px;
+}        
+.tomoe2{
+    width: 50px; height: 50px; background-color: black;
+    border-radius: 50%; margin: auto; margin-top: 80px; margin-left: 155px;
+    border-top: 5px solid darkred;
+}         
+ .tomoe2> .moe2{
+    width: 20px; height: 20px; background-color: black;
+    border-radius: 50%; border-top-right-radius:20% ;
+    margin-top: -5px; margin-left: 25px;
+}        
+.tomoe3{
+    width: 50px; height: 50px; background-color: black;
+    border-radius: 50%; margin: auto; margin-top: -50px; margin-left: 20px;
+    border-top: 5px solid darkred;
+}
+.tomoe3> .moe3{
+    width: 20px; height: 20px; background-color: black;
+    border-radius: 50%; border-bottom-right-radius:20% ;
+    margin-top: 30px; margin-left: 25px;
+}

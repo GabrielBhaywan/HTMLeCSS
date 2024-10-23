@@ -1,0 +1,82 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+}h1, h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif ;
+}p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+*{
+    margin: 0; padding: 0;
+}
+p>a::after{
+    content: ' ⧉';
+}
+nav>a{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic; color: rgb(255, 255, 255);
+    text-decoration: none; margin-right: 20px;
+}nav>a::after{
+    content: ' ⊡';
+}nav>a:hover{
+    color: rgb(0, 54, 0);
+    background-color: rgb(35, 248, 99);
+}
+
+/*acima configurações padrão dos meus arquivos*/
+body{
+    background-color: aquamarine;
+
+}
+/*conteúdo do site*/
+@font-face {
+    font-family: android;
+    src: url(../fontes/idroid.otf);
+}
+main{
+    background-color: white;
+    margin: 0px 150px;
+    padding: 0px 30px;
+    margin-top: -22px;
+}
+main>h1,h2{
+    color: rgb(0, 70, 0); font-family: android;
+}
+main> h2{
+    background-image: linear-gradient(45deg, rgb(116, 192, 116), rgb(167, 218, 154), white );
+
+}
+img{
+    margin: 0px 80px;
+}
+.on{
+    display: none;
+}
+.prender{
+    background-color: rgb(51, 161, 95); margin-top:10px; color: white;
+    margin-bottom: 0; padding: 5px; border-top-left-radius:20px ; border-top-right-radius: 20px ;
+}
+.aprender{
+    background-color: rgba(99, 211, 174, 0.377); margin-top: 0;
+    padding: 10px; border-bottom-left-radius: 20px ; border-bottom-right-radius:20px ;
+}
+/*rodapé do site*/
+.green, footer{
+    background-color: rgb(15, 105, 42); 
+}
+footer>p{
+    text-align: center; font-size: 18px; color: white;
+}
+/*cabeçalho do site*/
+header{
+    background-image: linear-gradient(180deg, rgb(45, 230, 143), rgb(0, 85, 38)) ;
+    color: white; height: 170px; margin: 0px 0px;
+}
+.alinha{
+    text-align: center;
+}
+nav{
+    margin-top: 50px;padding: 1px;
+}

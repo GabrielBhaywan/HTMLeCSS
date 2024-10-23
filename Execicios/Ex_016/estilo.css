@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*paleta de cor #84732B #3F0D12 #F4F2F3 #F6511D #252627*/
+/*paleta de cor2 usada #265C4B #146551 h1#007566 bgi#589A8D bgi#2d3b39 */
+div{
+    width: 15%;height: 150px;
+}
+.tudo{
+    display: flex; width: 100%; margin-top: 500px;
+}
+.a1{
+    background-color:#265C4B ; flex: 15%;
+}
+.a2{
+    background-color:#146551 ; flex: 15%;
+}
+.a3{
+    background-color:#007566 ; flex: 15%;
+}
+.a4{
+    background-color:#589A8D ; flex: 15%;
+}
+.a5{
+    background-color: #8FC1B5; flex: 15%;
+}
+
+body{
+    background-image: linear-gradient(to right, #589A8D, #2d3b39);
+}
+main{ 
+    background-color: white; padding: 20px; margin: 20px;  box-shadow: 12px 12px 12px black;
+}
+h1{
+    color:#007566 ; text-align: center;
+}
+h2, h3, h4, h5, h6{
+    color: #146551; text-align: center;
+}
+p{
+    background-image:radial-gradient(circle, #9ff8e2 80%,white 99%);  text-align: justify; font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+}
+.super{
+    text-align: center; width: 100%;
+}
+a{
+    font-size: 30px; 
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+h1, h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif ;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+/*acima configurações padrão dos meus arquivos*/
+div{
+    display: block; background-color: white; width: 120px; height: 20px;
+}
+.a{
+    display: none; 
+}
+div:hover>a{
+    display: block;
+}
+a{
+    color: rgb(255, 55, 55);text-decoration: none;
+}
+a:hover{
+    color: darkblue;
+}
+a:active{
+    color: rgb(0, 0, 0);
+}
+a:visited:hover {
+    color: rgb(78, 255, 55);
+}
+/*o pseudo elemento é com quatro pontos:: e a pseudo classe é com dois pontos : */
+
+.super::before{
+    content: '  ⦚  ';
+}
+ a::before{
+    content: '⇒   ';
+}
+.super::after{
+    content:'  ⦚' ;
+} 
+a::after{
+    content: '   ⇐';
+}
+.super:hover{
+    background-color: rgb(153, 153, 153); color: black;
+}
+

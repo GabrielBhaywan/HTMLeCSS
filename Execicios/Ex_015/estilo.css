@@ -1,0 +1,12 @@
+body{
+    color: darkred; font-size: 17px;
+}
+h1{
+    background-color: darkgreen; color: goldenrod; text-align: center;
+}
+h2{
+    color: limegreen;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_011</title>
+</head>
+<body>
+    <h1>adaptção de codigo html imagem dinamica</h1>
+    <p>abra esse site em dispositivos diferente ou mude o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="img/Pe.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="img/Me.png" type="image/png">
+        <img src="img/Ge.png" alt="imagem grande">
+    </picture>
+    <h1>reproduções de audio</h1>
+    <audio src="audio/Assasins.mp3" controls></audio>
+    <!-- .MP3 .OGG .WAV formato de arquivos de audio-->
+<h2>outra maneira para audio</h2>
+<!--o autoplay não funciona no navegador edge e nem no chrome-->
+ loop controls autoplay preload="metadata" </audio>     <!-- preload="auto","metadata","none"-->
+<!--você não tem arquivo .wav e nem .ogg -->
+     <source src="audio/Assasins.mp3" type="audio/mpeg">
+     <source src="audio/Assasins.wav" type="audio/wav">
+     <source src="audio/Assasins.ogg" type="audio/ogg">
+    <p>seu navegador não possui compatibilidade suficiente para desenvolver essa experiencia de audio</p>
+
+
+ <p>isso faria com que ele tentase carregar o primeiro arquivo de audio se não fosse posivel ele carregaria outro.</p>
+ <h1>videos</h1>
+ <p>as tags mais usadas para video em html são .mp4, .m4v, .webm e .ogv</p>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+h1, h2, h3, h4, h5, h6{
+    font-family:'Times New Roman', Times, serif ;
+  
+}p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+/*codigo basico acima*/
+/* codigo da aula :)*/
+h1, h2{
+    color: rgb(0, 87, 87); background-color: aquamarine; text-align: center;
+}
+#principal{
+    text-align: left; color: black; background-color: white; text-shadow: 8px 6px 5px black; border: 1px solid grey;
+}
+.basico{
+    color: rgb(25, 145, 35); font-size: 40px;
+}
+.entermediario{
+    color: rgb(145, 143, 25);  font-size: 40px;
+}
+.avançado{
+    color: rgb(145, 25, 25);  font-size: 40px;
+}
